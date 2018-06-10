@@ -17,12 +17,15 @@ This is a project from Udacity's Front-End Nanodegree track. The project was bui
 
 To begin, click on a card. The first card that you flip will initiate the timer. Your goal is to find all matching cards. When you find a match, the matching cards will stay flipped. If you flip two cards that **do not** match, they will be flipped back over and their symbol(s) will no longer be visible.
 
+---
+
 #### Moves & Star Rating
 
 Every time you flip a pair of cards, your moves will increment by 1. 
 
 The star rating correlates directly to the number of moves you've made during the game. Every 10 moves, you will lose one star. 5 stars is the highest star rating you can get and 1 star is the lowest.
 
+---
 
 #### Restarting the Game
 
