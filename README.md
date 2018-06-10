@@ -2,19 +2,44 @@
 
 ## Table of Contents
 
+* [Overview](#overview)
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Dependencies](#dependencies)
+
+## Overview
+
+This is a project from Udacity's Front-End Nanodegree track. The project was built in HTML, CSS, and Vanilla JavaScript.
+
+---
 
 ## Instructions
+#### How to Play
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+To begin, click on a card. The first card that you flip will initiate the timer. Your goal is to find all matching cards. When you find a match, the matching cards will stay flipped. If you flip two cards that **do not** match, they will be flipped back over and their symbol(s) will no longer be visible.
 
-To get started, open `js/app.js` and start building out the app's functionality
+#### Moves & Star Rating
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Every time you flip a pair of cards, your moves will increment by 1. 
 
-## Contributing
+The star rating correlates directly to the number of moves you've made during the game. Every 10 moves, you will lose one star. 5 stars is the highest star rating you can get and 1 star is the lowest.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+#### Restarting the Game
+
+To restart the game, you can click the restart button next to the timer or refresh the browser page.
+
+When you decide to restart the game, everything is reset including your star rating, moves, time and the cards are reshuffled.
+
+### **Click [here](https://codepen.io/kirahcodes/full/ERZabp/) to play!**
+
+---
+
+## Dependencies
+
+* The shuffle function was provided and is from [Stack Overflow](http://stackoverflow.com/a/2450976)
+* [Animations](https://daneden.github.io/animate.css/) used were made by Daniel Eden
+* Icons are from [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
+* Font used is **Open Sans** from [Google Fonts](https://fonts.google.com/specimen/Open+Sans)
+
+
+---
